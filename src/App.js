@@ -1,35 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import { AppBar, Toolbar, IconButton, Button } from "@material-ui/core";
+import Topbar from "./components/Topbar";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <AppBar color="inherit">
-          <Toolbar>
-            <IconButton style={{ color: "white" }}>Logo</IconButton>
-            <div className="emptySpace"></div>
-            <Button
-              style={{ color: "white" }}
-              onClick={() => this.test("about")}
-            >
-              About
-            </Button>
-            <Button
-              style={{ color: "white" }}
-              onClick={() => this.test("work")}
-            >
-              Work
-            </Button>
-            <Button
-              style={{ color: "white" }}
-              onClick={() => this.test("projects")}
-            >
-              Projects
-            </Button>
-          </Toolbar>
-        </AppBar>
+        <Topbar></Topbar>
         <div id="about" className="section">
           <h1>Anwar Anson Yu</h1>
           <h3>Software Engineer</h3>
@@ -51,9 +28,6 @@ class App extends Component {
       </div>
     );
   }
-  test = (id) => {
-    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-  };
 }
 
 export default App;
