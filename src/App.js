@@ -26,8 +26,22 @@ class App extends Component {
             <About />
           </Grid>
         </Grid>
-        {/* <About /> */}
-        {/* <Work /> */}
+
+        <Grid container className="section">
+          <Grid
+            item
+            className="card-background"
+            xs={12}
+            sm={10}
+            md={9}
+            style={{
+              radius: "40px",
+              padding: "20px",
+            }}
+          >
+            <Work />
+          </Grid>
+        </Grid>
         {/* <Projects /> */}
       </div>
     );

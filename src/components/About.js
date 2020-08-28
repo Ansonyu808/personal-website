@@ -46,7 +46,11 @@ class About extends Component {
             >
               <LinkedInIcon aria-label="Anson's Github" />
             </IconButton>
-            <IconButton>
+            <IconButton
+              onClick={() =>
+                this.onExternalLinkClicked("https://github.com/ansonyu808")
+              }
+            >
               <GitHubIcon aria-label="Anson's Github" />
             </IconButton>
           </div>
