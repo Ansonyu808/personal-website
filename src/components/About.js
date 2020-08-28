@@ -31,10 +31,9 @@ class About extends Component {
             className="flex flex-horizontal-center"
             variant="subtitle1"
           >
-            Software engineer passionate in providing software solutions to
-            client problems. Excellent problem solver, teamworker, and leader
-            with a strong sense of passion for learning about software
-            development.
+            Hi! I'm a software engineer with a B.S. in Computer Science and a
+            certificate in Database Management. I'm passionate about finding and
+            developing software solutions for client problems!
           </Typography>
           <div className="flex flex-horizontal-center">
             <IconButton
