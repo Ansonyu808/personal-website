@@ -27,7 +27,7 @@ class App extends Component {
           </Grid>
         </Grid>
 
-        <Grid container className="section">
+        <Grid container id="work" className="section">
           <Grid
             item
             className="card-background"
