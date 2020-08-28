@@ -4,7 +4,7 @@ import React, { Component } from "react";
 class Topbar extends Component {
   render() {
     return (
-      <AppBar color="inherit">
+      <AppBar>
         <Toolbar>
           <IconButton style={{ color: "white" }}>Logo</IconButton>
           <div className="emptySpace"></div>
