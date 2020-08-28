@@ -9,7 +9,7 @@ class Topbar extends Component {
   handleScroll = (event) => {
     if (scrollY > window.scrollY) {
       document.getElementById("topbar").style.visibility = "visible";
-    } else if (scrollY > 30) {
+    } else if (scrollY > 100) {
       document.getElementById("topbar").style.visibility = "hidden";
     }
     scrollY = window.scrollY;
